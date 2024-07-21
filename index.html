@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FantaOlimpiadi</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="home">FantaOlimpiadi</h1>
+    </header>
+
+    <main>
+        <div id="initial-selection">
+            <h2 id="uomini" class="uomini">Uomini</h2>
+            <h2 id="donne" class="donne">Donne</h2>
+        </div>
+
+        <div id="specialties-container"></div>
+        
+        <button id="submit-team" class="submit-team" disabled>Finalizza Selezione</button>
+        
+        <div id="selezione-capitani" style="display:none;">
+            <h2>Seleziona i Capitani:</h2>
+            <label for="capitano-maschile">Capitano Maschile:</label>
+            <input type="text" id="capitano-maschile" placeholder="Nome Capitano Maschile">
+            <br>
+            <label for="capitano-femminile">Capitano Femminile:</label>
+            <input type="text" id="capitano-femminile" placeholder="Nome Capitano Femminile">
+            <br>
+            <button id="invia-email">Invia Email</button>
+        </div>
+    </main>
+
+    <footer>
+        <div id="budget" class="budget">
+            <p id="budget-male" class="budget-male">Budget Maschile disponibile: 230 crediti</p>
+            <p id="budget-female" class="budget-female">Budget Femminile disponibile: 230 crediti</p>
+        </div>
+        <p>&copy; 2024 FantaOlimpiadi</p>
+    </footer>
+</body>
+</html>

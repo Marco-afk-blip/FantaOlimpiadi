@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.uomini {
+    color: blue;
+    cursor: pointer;
+}
+
+.donne {
+    color: red;
+    cursor: pointer;
+}
+
+.specialty {
+    margin-bottom: 20px;
+}
+
+.athlete {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+    width: calc(20% - 12px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Stili per il bottone di invio */
+.submit-team {
+    margin-top: 20px;
+}
+
+/* Stili per il budget fisso */
+.budget {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #ddd; /* Aggiungi un bordo superiore */
+}
+
+/* Stili per il budget maschile */
+.budget-male {
+    color: blue;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* Stili per il budget femminile */
+.budget-female {
+    color: red;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* Stili per la sezione di selezione dei capitani */
+.selezione-capitani {
+    margin-top: 20px;
+}
